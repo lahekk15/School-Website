@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header .top-header {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Navigation and Logo Section */
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+.navbar input[type="text"] {
+    padding: 5px;
+    font-size: 1em;
+}
+
+/* Quote Section */
+.quote-section {
+    background-image: url('students.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+    color: white;
+    position: relative;
+}
+
+.quote-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.quote-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote-content blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.apply-button {
+    background-color: #ff6347;
+}
+
+.courses-button {
+    background-color: #4682b4;
+}
+
+/* Images Section */
+.images-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+.images-section .image {
+    margin: 0 10px;
+}
+
+.images-section .image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
