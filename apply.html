@@ -11,7 +11,8 @@
         <h1>Admission Application Form</h1>
     </header>
     <main>
-        <form id="admissionForm" onsubmit="return validateForm()">
+        <form id="admissionForm" action="forms.php" method="POST" onsubmit="return validateForm()">
+            
             <label for="studentName">Student Name:</label>
             <input type="text" id="studentName" name="studentName" required>
 
